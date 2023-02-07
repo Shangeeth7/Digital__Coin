@@ -9,7 +9,7 @@ function Home() {
     <div>
       <PageTitle
         title={`
-            Hello  ${user.firstName} ${user.lastName} ,  Welcome to the SHEYWALLET
+            Hello  ${user.firstName} ${user.lastName} ,  Welcome to Digital Coin
        `}
       />
       <div className="bg-tertiary p-2 mt-2 w-50 br-3 flex flex-col gap-1 uppercase">

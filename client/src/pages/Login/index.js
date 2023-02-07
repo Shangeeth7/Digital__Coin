@@ -29,7 +29,7 @@ function Login() {
     <div className="bg-primary flex items-center justify-center h-screen">
       <div className="card w-400 p-2">
         <div className="flex items-center justify-between">
-          <h1 className="text-2xl">SHEYWALLET - LOGIN</h1>
+          <h1 className="text-2xl">Digital Coin - LOGIN</h1>
         </div>
         <hr />
         <Form layout="vertical" onFinish={onFinish}>

@@ -11,7 +11,7 @@ function Register() {
     try {
       dispatch(ShowLoading());
       const response = await RegisterUser(values);
-      dispatch(HideLoading())
+      dispatch(HideLoading());
       if (response.success) {
         message.success(response.message);
         navigate("/login");
@@ -19,7 +19,7 @@ function Register() {
         message.error(response.message);
       }
     } catch (error) {
-      dispatch(HideLoading())
+      dispatch(HideLoading());
       message.error(error.message);
     }
   };
@@ -27,7 +27,7 @@ function Register() {
   return (
     <div className="m-5">
       <div className="flex items-center justify-between">
-        <h1 className="text-2xl">SHEYWALLET - REGISTER</h1>
+        <h1 className="text-2xl">Digital Coin - REGISTER</h1>
 
         <h1 className="text-sm underline" onClick={() => navigate("/login")}>
           Already a member , Log in

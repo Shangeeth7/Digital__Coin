@@ -97,9 +97,7 @@ function DefaultLayout({ children }) {
                 onClick={item.onClick}
               >
                 {item.icon}
-                {!collapsed && (
-                  <h1 className="text-sm">{item.title}</h1>
-                )}
+                {!collapsed && <h1 className="text-sm">{item.title}</h1>}
               </div>
             );
           })}
@@ -123,7 +121,7 @@ function DefaultLayout({ children }) {
           </div>
 
           <div>
-            <h1 className="text-xl text-secondary">SHEY WALLET</h1>
+            <h1 className="text-xl text-secondary">Digital Coin</h1>
           </div>
 
           <div>
