@@ -5,7 +5,7 @@ const { axiosInstance } = require(".");
 export const VerifyAccount = async (payload) => {
   try {
     const { data } = await axiosInstance.post(
-      "https://digital-coin.onrender.com/api/transactions/verify-account",
+      "/api/transactions/verify-account",
       payload
     );
     return data;
@@ -18,7 +18,7 @@ export const VerifyAccount = async (payload) => {
 export const TransferFunds = async (payload) => {
   try {
     const { data } = await axiosInstance.post(
-      "https://digital-coin.onrender.com/api/transactions/transfer-funds",
+      "/api/transactions/transfer-funds",
       payload
     );
     return data;
@@ -31,7 +31,7 @@ export const TransferFunds = async (payload) => {
 export const GetTransactionsOfUser = async () => {
   try {
     const { data } = await axiosInstance.post(
-      "https://digital-coin.onrender.com/api/transactions/get-all-transactions-by-user"
+      "/api/transactions/get-all-transactions-by-user"
     );
     return data;
   } catch (error) {
@@ -44,7 +44,7 @@ export const GetTransactionsOfUser = async () => {
 export const DepositFunds = async (payload) => {
   try {
     const { data } = await axiosInstance.post(
-      "https://digital-coin.onrender.com/api/transactions/deposit-funds",
+      "/api/transactions/deposit-funds",
       payload
     );
     return data;

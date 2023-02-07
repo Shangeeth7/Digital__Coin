@@ -4,7 +4,7 @@ import { axiosInstance } from ".";
 export const GetAllRequestsByUser = async () => {
   try {
     const { data } = await axiosInstance.post(
-      "https://digital-coin.onrender.com/api/requests/get-all-requests-by-user"
+      "/api/requests/get-all-requests-by-user"
     );
     return data;
   } catch (error) {
@@ -16,7 +16,7 @@ export const GetAllRequestsByUser = async () => {
 export const SendRequest = async (request) => {
   try {
     const { data } = await axiosInstance.post(
-      "https://digital-coin.onrender.com/api/requests/send-request",
+      "/api/requests/send-request",
       request
     );
     return data;
@@ -29,7 +29,7 @@ export const SendRequest = async (request) => {
 export const UpdateRequestStatus = async (request) => {
   try {
     const { data } = await axiosInstance.post(
-      "https://digital-coin.onrender.com/api/requests/update-request-status",
+      "/api/requests/update-request-status",
       request
     );
     return data;
