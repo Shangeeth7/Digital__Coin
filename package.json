@@ -25,5 +25,13 @@
     "stripe": "^11.9.1",
     "uuidv4": "^6.2.13"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shangeeth7/Digital__Coin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Shangeeth7/Digital__Coin/issues"
+  },
+  "homepage": "https://github.com/Shangeeth7/Digital__Coin#readme"
 }
