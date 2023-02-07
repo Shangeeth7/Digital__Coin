@@ -9,7 +9,6 @@ function DepositModal({ showDepositModal, setShowDepositModal, reloadData }) {
   const [form] = Form.useForm();
   const dispatch = useDispatch();
   const onToken = async (token) => {
-    console.log(token);
     try {
       dispatch(ShowLoading());
       const response = await DepositFunds({
