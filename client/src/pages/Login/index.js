@@ -29,19 +29,27 @@ function Login() {
     <div className="bg-primary flex items-center justify-center h-screen">
       <div className="card w-400 p-2">
         <div className="flex items-center justify-between">
-          <h1 className="text-2xl">Digital Coin - LOGIN</h1>
+          <h1 className="text-2xl text-white ">
+            Digital Coin - <span className="secondd-word">LOGIN</span>{" "}
+          </h1>
         </div>
         <hr />
         <Form layout="vertical" onFinish={onFinish}>
           <Row gutter={16}>
             <Col span={24}>
-              <Form.Item label="Email" name="email">
+              <Form.Item
+                label={<label style={{ color: "white" }}>E-mail</label>}
+                name="email"
+              >
                 <input type="text" />
               </Form.Item>
             </Col>
 
             <Col span={24}>
-              <Form.Item label="Password" name="password">
+              <Form.Item
+                label={<label style={{ color: "white" }}>Password</label>}
+                name="password"
+              >
                 <input type="password" />
               </Form.Item>
             </Col>
@@ -51,7 +59,7 @@ function Login() {
             Login
           </button>
           <h1
-            className="text-sm underline mt-2"
+            className="text-sm underline mt-2 text-white"
             onClick={() => navigate("/register")}
           >
             Not a member , Click Here To Register

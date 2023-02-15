@@ -1,0 +1,9 @@
+body {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("https://img.freepik.com/free-vector/dollar_53876-25498.jpg?w=1380&t=st=1676457153~exp=1676457753~hmac=f3413811a961781de7b9065ef4861fbcf5e973388116f1185234361dc818a287");
+}
+
+.register-backgroundd {
+  background: transparent !important;
+}

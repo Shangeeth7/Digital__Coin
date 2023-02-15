@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.secondd-word {
+  color: #002e2a;
+}
 
-*{
-    font-family: 'Montserrat', sans-serif !important;
+.ant-table {
+  background: transparent !important;
 }

@@ -1,12 +1,16 @@
 :root {
-  --primary: #002E2A;
+  --primary: #002e2a;
   --secondary: #e7b309;
-  --tertiary : #410303e4;
+  --tertiary: #410303e4;
 }
 
-
 .bg-primary {
-  background-color: var(--primary) !important;
+  background-size: cover;
+  background-image: url("../../public/images/digital_coin_log-reg.jpg");
+}
+
+.card {
+  background-color: transparent !important;
 }
 
 .bg-secondary {
@@ -33,14 +37,14 @@
   color: #000 !important;
 }
 
-.success-bg{
+.success-bg {
   background-color: #107010 !important;
   color: white !important;
   padding: 10px;
   border-radius: 3px;
 }
 
-.error-bg{
+.error-bg {
   background-color: #d3391b !important;
   color: white !important;
   padding: 10px;

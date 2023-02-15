@@ -25,12 +25,7 @@ function DefaultLayout({ children }) {
       onClick: () => navigate("/requests"),
       path: "/requests",
     },
-    {
-      title: "Profile",
-      icon: <i class="ri-user-3-line"></i>,
-      onClick: () => navigate("/profile"),
-      path: "/profile",
-    },
+
     {
       title: "Logout",
       icon: <i class="ri-logout-box-line"></i>,
@@ -67,12 +62,7 @@ function DefaultLayout({ children }) {
       onClick: () => navigate("/requests"),
       path: "/requests",
     },
-    {
-      title: "Profile",
-      icon: <i class="ri-user-3-line"></i>,
-      onClick: () => navigate("/profile"),
-      path: "/profile",
-    },
+
     {
       title: "Logout",
       icon: <i class="ri-logout-box-line"></i>,
